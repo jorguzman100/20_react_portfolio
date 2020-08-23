@@ -26,16 +26,16 @@ const Nav = () => {
                     <Link to="/skills">Skills</Link>
                 </li>
                 <li>
-                    <Link to="/portfolio" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Portfolio</Link>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Portfolio</a>
                     <ul className="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <Link to="#">Front End</Link>
+                            <Link to="/portfolio">Front End</Link>
                         </li>
                         <li>
-                            <Link to="#">Command Line Interface</Link>
+                            <Link to="/portfolio">Command Line Interface</Link>
                         </li>
                         <li>
-                            <Link to="#">Full Stack</Link>
+                            <Link to="/portfolio">Full Stack</Link>
                         </li>
                     </ul>
                 </li>
