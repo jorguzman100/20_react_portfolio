@@ -8,7 +8,7 @@ const Nav = () => {
         <nav id="sidebar">
             <div className="sidebar-header">
                 <h3>Jorge Guzman</h3>
-                <img className='profilePicture' src="./images/JorgeGuzman2.jpg" alt="Jorge Guzman profile" />
+                <img className='profilePicture' src="/assets/img/profile/JorgeGuzman2.jpg" alt="Jorge Guzman profile" />
                 <p className='role'>Full Stack Web Developer</p>
             </div>
 
