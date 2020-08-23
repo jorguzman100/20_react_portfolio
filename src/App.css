@@ -46,6 +46,30 @@ a:focus {
     SIDEBAR STYLE
 ----------------------------------------------------- */
 
+/* 
+ORANGE
+#f26507  242, 101, 7
+#eb7d34  235, 125, 52 
+#ebad83  235, 173, 131
+*/
+
+/* 
+GREEN
+#215273 rgb(33, 82, 115)
+#359d9e rgb(53, 157, 158)
+#55c595 rgb(85, 197, 149)
+#7ce495 rgb(124, 228, 149)
+#cff4d2 rgb(207, 244, 210)
+*/
+
+.profilePicture {
+  border: #359d9e solid 10px;
+  border-radius: 50%;
+  margin-left: 1.7rem;
+  width: 150px;
+  height: 150px;
+}
+
 .wrapper {
   display: flex;
   width: 100%;
@@ -58,7 +82,7 @@ a:focus {
   left: 0;
   height: 100vh;
   z-index: 999;
-  background: #7386d5;
+  background: #359d9e;
   color: #fff;
   transition: all 0.3s;
 }
@@ -69,7 +93,7 @@ a:focus {
 
 #sidebar .sidebar-header {
   padding: 20px;
-  background: #6d7fcc;
+  background: #215273;
 }
 
 #sidebar ul.components {
@@ -89,14 +113,14 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-  color: #7386d5;
+  color: #359d9e;
   background: #fff;
 }
 
 #sidebar ul li.active > a,
 a[aria-expanded="true"] {
   color: #fff;
-  background: #6d7fcc;
+  background: #215273;
 }
 
 a[data-toggle="collapse"] {
@@ -114,7 +138,7 @@ a[data-toggle="collapse"] {
 ul ul a {
   font-size: 0.9em !important;
   padding-left: 30px !important;
-  background: #6d7fcc;
+  background: #215273;
 }
 
 ul.CTAs {
@@ -131,12 +155,12 @@ ul.CTAs a {
 
 a.download {
   background: #fff;
-  color: #7386d5;
+  color: #359d9e;
 }
 
 a.article,
 a.article:hover {
-  background: #6d7fcc !important;
+  background: #215273 !important;
   color: #fff !important;
 }
 

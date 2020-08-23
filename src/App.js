@@ -7,7 +7,7 @@ import Content from './components/Content';
 
 function App() {
   return (
-    <div class="wrapper">
+    <div className="wrapper">
       <Nav />
       <Content />
     </div>
