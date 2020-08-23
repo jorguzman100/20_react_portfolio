@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Nav = () => {
 
@@ -8,44 +9,44 @@ const Nav = () => {
             <div className="sidebar-header">
                 <h3>Jorge Guzman</h3>
                 <img className='profilePicture' src="./images/JorgeGuzman2.jpg" alt="Jorge Guzman profile" />
+                <p className='role'>Full Stack Web Developer</p>
             </div>
 
             <ul className="list-unstyled components">
-                <p>Full Stack Web Developer</p>
                 <li>
-                    <a href="#">About</a>
+                    <Link to="/">About</Link>
                 </li>
                 <li>
-                    <a href="#">Experience</a>
+                    <Link to="/experience">Experience</Link>
                 </li>
                 <li>
-                    <a href="#">Education</a>
+                    <Link to="/education">Education</Link>
                 </li>
                 <li>
-                    <a href="#">Skills</a>
+                    <Link to="/skills">Skills</Link>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Portfolio</a>
+                    <Link to="/portfolio" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Portfolio</Link>
                     <ul className="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="#">Front End</a>
+                            <Link to="#">Front End</Link>
                         </li>
                         <li>
-                            <a href="#">Command Line Interface</a>
+                            <Link to="#">Command Line Interface</Link>
                         </li>
                         <li>
-                            <a href="#">Full Stack</a>
+                            <Link to="#">Full Stack</Link>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <Link to="/contact">Contact</Link>
                 </li>
             </ul>
 
             <ul className="list-unstyled CTAs">
                 <li>
-                    <a href="#" className="article">Social medial</a>
+                    <Link to="#" className="article">Social medial</Link>
                 </li>
             </ul>
         </nav>

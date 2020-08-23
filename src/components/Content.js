@@ -1,10 +1,18 @@
 import React from 'react';
+import { Route } from "react-router-dom";
+
+// Components
+import About from '../pages/About';
+import Experience from '../pages/Experience';
+import Education from '../pages/Education';
+import Skills from '../pages/Skills';
+import Portfolio from '../pages/Portfolio';
+import Contact from '../pages/Contact';
 
 const Content = () => {
 
     return (
         <div id="content">
-
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
 
@@ -14,8 +22,13 @@ const Content = () => {
                     </button>
                 </div>
             </nav>
-        
-            
+            <Route exact path="/" component={About} />
+            <Route exact path="/about" component={About} />
+            <Route exact path="/experience" component={Experience} />
+            <Route exact path="/education" component={Education} />
+            <Route exact path="/skills" component={Skills} />
+            <Route exact path="/portfolio" component={Portfolio} />
+            <Route exact path="/contact" component={Contact} />
         </div>
     );
 }
