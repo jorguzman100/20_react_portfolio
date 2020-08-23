@@ -2,13 +2,13 @@ import React from 'react';
 import './App.css';
 
 // Components
-import Nav from './components/Nav';
+import SideNav from './components/SideNav';
 import Content from './components/Content';
 
 function App() {
   return (
     <div className="wrapper">
-      <Nav />
+      <SideNav />
       <Content />
     </div>
   );
