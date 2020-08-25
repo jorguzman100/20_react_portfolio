@@ -26,18 +26,7 @@ const Nav = () => {
                     <Link to="/skills">Skills</Link>
                 </li>
                 <li>
-                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Portfolio</a>
-                    <ul className="collapse list-unstyled" id="pageSubmenu">
-                        <li>
-                            <Link to="/portfolio">Front End</Link>
-                        </li>
-                        <li>
-                            <Link to="/portfolio">Command Line Interface</Link>
-                        </li>
-                        <li>
-                            <Link to="/portfolio">Full Stack</Link>
-                        </li>
-                    </ul>
+                    <Link to="/portfolio">Portfolio</Link>
                 </li>
                 <li>
                     <Link to="/contact">Contact</Link>
@@ -54,3 +43,22 @@ const Nav = () => {
 }
 
 export default Nav;
+
+
+// Portfolio dropdown 
+/* 
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Portfolio</a>
+                    <ul className="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <Link to="/portfolio">Front End</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio">Command Line Interface</Link>
+                        </li>
+                        <li>
+                            <Link to="/portfolio">Full Stack</Link>
+                        </li>
+                    </ul>
+                </li>
+*/
