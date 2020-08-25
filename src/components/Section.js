@@ -3,8 +3,7 @@ import React from 'react';
 const Section = (props) => {
 
     return (
-        <section>
-            <div className="line"></div>
+        <section id={props.id}>
             <h2>{props.title}</h2>
             {props.children}
         </section>

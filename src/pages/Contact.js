@@ -7,7 +7,7 @@ const Contact = () => {
       <main className="row row-cols-1 mt-4">
         <div className="col bg-white p-4 mb-5">
           <h4 className="text-center">
-            Do you want to start a project with us or have any questions?
+            Would you like to start a project or have any questions?
           </h4>
 
           {/* Form */}
@@ -135,7 +135,7 @@ const Contact = () => {
             </div>
           </div>
           <h5 className="text-right" id="cheers">
-            I will be glad to hear form you!
+            I will be glad to hear from you!
           </h5>
         </section>
         {/* /Direct Contact */}

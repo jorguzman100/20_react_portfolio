@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import About from '../pages/About';
 
 // 
 
@@ -11,9 +10,11 @@ const Nav = () => {
     return (
         <nav id="sidebar">
             <div className="sidebar-header">
-                <h3>Jorge Guzman</h3>
-                <img className='profilePicture' src="/assets/img/profile/JorgeGuzman2.jpg" alt="Jorge Guzman profile" />
-                <p className='role'>Full Stack Web Developer</p>
+                <Link to='/about'>
+                    <h3 className='my-5'>Jorge Guzman</h3>
+                    <img className='profilePicture mb-5' src="/assets/img/profile/JorgeGuzman2.jpg" alt="Jorge Guzman profile" />
+                    <p className='role mb-5 mt-0'>Full Stack Web Developer</p>
+                </Link>
             </div>
 
             <ul className="list-unstyled components">
@@ -44,7 +45,25 @@ const Nav = () => {
 
             <ul className="list-unstyled CTAs">
                 <li>
-                    <Link to="#" className="article">Social medial</Link>
+                    <a href="https://github.com/jorguzman100" target="_blank">
+                        <i className="fab fa-github display-4 align-middle mr-2"></i>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.linkedin.com/in/jorge-guzman-992401a/"
+                        target="_blank"
+                    >
+                        <i className="fab fa-linkedin display-4 align-middle mr-2"></i>
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://www.facebook.com/jorguzman75"
+                        target="_blank"
+                    >
+                        <i className="fab fa-facebook-square display-4 align-middle mr-2"></i>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -55,7 +74,7 @@ export default Nav;
 
 
 // Portfolio dropdown 
-/* 
+/*
                 <li>
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">Portfolio</a>
                     <ul className="collapse list-unstyled" id="pageSubmenu">
