@@ -335,7 +335,13 @@ Source: https://www.youtube.com/watch?v=iGam6w8Jz9g&t=728s */
 }
 
 .introCard .card-text {
-  padding: 0px 30px;
+  padding: 0px;
+  margin: 0px 30px;
+}
+
+.introCard .card-text {
+  padding: 0px;
+  margin: 0px 30px;
 }
 
 .projectCard img {
@@ -359,8 +365,7 @@ Reference: https://www.youtube.com/watch?time_continue=3&v=h3gktsmp3Oo&feature=e
 
 .card-img-overlay h5 {
   text-align: center;
-  padding-top: 10%;
-  padding-bottom: 5%;
+  margin: 10% 10% 5% 10%;
 }
 
 .card-img-overlay {
