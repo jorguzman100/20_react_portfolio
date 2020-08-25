@@ -45,21 +45,23 @@ const projects = [
     },
     {
         id: 4,
-        introImage: '',
-        projectImage: '',
-        title: '',
-        description: ``,
-        repo: '',
-        deploy: ''
+        introImage: '/assets/img/backgrounds/gray.png',
+        projectImage: '/assets/img/screen-shots/projects-screenshots/PasswordGenerator.png',
+        title: 'Password Generator',
+        description: `An application that generates a random password based
+                        on user selected criteria.`,
+        repo: 'https://github.com/jorguzman100/03_Password_Generator',
+        deploy: 'https://jorguzman100.github.io/03_Password_Generator/'
     },
     {
         id: 5,
-        introImage: '',
-        projectImage: '',
-        title: '',
-        description: ``,
-        repo: '',
-        deploy: ''
+        introImage: '/assets/img/backgrounds/blue.png',
+        projectImage: '/assets/img/screen-shots/projects-screenshots/CodeRefactor.png',
+        title: 'Code Refactor',
+        description: `Refactored an existing webpage in order to make it
+                        accessible, so it is optimized for search engines.`,
+        repo: 'https://github.com/jorguzman100/01_Code_Refactor_JGR',
+        deploy: 'https://jorguzman100.github.io/01_Code_Refactor_JGR/'
     },
     {
         id: 6,
