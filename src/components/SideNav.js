@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import About from '../pages/About';
+
+// 
+
 
 const Nav = () => {
 
@@ -14,16 +18,21 @@ const Nav = () => {
 
             <ul className="list-unstyled components">
                 <li>
-                    <Link to="/">About</Link>
-                </li>
-                <li>
-                    <Link to="/experience">Experience</Link>
-                </li>
-                <li>
-                    <Link to="/education">Education</Link>
-                </li>
-                <li>
-                    <Link to="/skills">Skills</Link>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">About</a>
+                    <ul className="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="/about#about">About</a>
+                        </li>
+                        <li>
+                            <a href="/about#experience">Experience</a>
+                        </li>
+                        <li>
+                            <a href="/about#education">Education</a>
+                        </li>
+                        <li>
+                            <a href="/about#skills">Skills</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <Link to="/portfolio">Portfolio</Link>

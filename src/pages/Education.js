@@ -4,7 +4,7 @@ import Section from '../components/Section';
 const Education = () => {
 
     return (
-        <Section title={'Education'}>
+        <Section title={'Education'} id='education'>
             Education content
         </Section>
     );

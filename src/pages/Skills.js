@@ -4,7 +4,7 @@ import Section from '../components/Section';
 const Skills = () => {
 
     return (
-        <Section title={'Skills'}>
+        <Section title={'Skills'} id='skills'>
             Skills content
         </Section>
     );
