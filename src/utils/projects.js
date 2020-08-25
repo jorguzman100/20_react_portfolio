@@ -36,12 +36,12 @@ const projects = [
     },
     {
         id: 3,
-        introImage: '',
-        projectImage: '',
-        title: '',
-        description: ``,
-        repo: '',
-        deploy: ''
+        introImage: '/assets/img/backgrounds/lightblue.png',
+        projectImage: '/assets/img/screen-shots/projects-screenshots/DisneyMoviesQuiz2.png',
+        title: 'Disney Movies Quiz',
+        description: `A funny quiz related to Disney movies.`,
+        repo: 'https://github.com/jorguzman100/04_Code_Quiz',
+        deploy: 'https://jorguzman100.github.io/04_Code_Quiz/'
     },
     {
         id: 4,
