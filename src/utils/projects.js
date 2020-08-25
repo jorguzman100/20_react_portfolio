@@ -65,21 +65,21 @@ const projects = [
     },
     {
         id: 6,
-        introImage: '',
-        projectImage: '',
-        title: '',
-        description: ``,
-        repo: '',
-        deploy: ''
+        introImage: '/assets/img/backgrounds/aqua.png',
+        projectImage: '/assets/img/screen-shots/projects-screenshots/NoteTaker.png',
+        title: 'Note Taker',
+        description: `An application that can be used to write, save, and delete notes. This application uses an express backend, and save and retrieve note data from a JSON file.`,
+        repo: 'https://github.com/jorguzman100/11_Note_Taker',
+        deploy: 'https://fierce-earth-57501.herokuapp.com/notes'
     },
     {
         id: 7,
-        introImage: '',
-        projectImage: '',
-        title: '',
-        description: ``,
-        repo: '',
-        deploy: ''
+        introImage: '/assets/img/backgrounds/green.png',
+        projectImage: '/assets/img/screen-shots/projects-screenshots/BookShelf.png',
+        title: 'Book Shelf',
+        description: `A full stack web application where a user can register, browse in a book database, select books and add them to a purchasing cart.`,
+        repo: 'https://github.com/jorguzman100/project2',
+        deploy: 'https://safe-basin-04900.herokuapp.com/'
     }
 ];
 
