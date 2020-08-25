@@ -14,15 +14,7 @@ const ProjectCard = (props) => {
         data-index={props.project.id}
         onMouseLeave={props.handleProjectMouseLeave}
       >
-        <a href="#" className="aLike" id={`like${props.project.id}`}>
-          <i className="far fa-thumbs-up like"></i>
-        </a>
-        <a href="#" className="aLiked" id={`liked${props.project.id}`}>
-          <i className="fas fa-thumbs-up liked"></i>
-        </a>
-        <a href="#">
-          <i className="fas fa-share-alt share"></i>
-        </a>
+        
         <a href={props.project.deploy} target="_blank">
           <i className="far fa-play-circle"></i>
         </a>
@@ -35,3 +27,16 @@ const ProjectCard = (props) => {
 };
 
 export default ProjectCard;
+
+// The Like, Liked, and Share buttons
+/* 
+<a href="#" className="aLike" id={`like${props.project.id}`}>
+          <i className="far fa-thumbs-up like"></i>
+        </a>
+        <a href="#" className="aLiked" id={`liked${props.project.id}`}>
+          <i className="fas fa-thumbs-up liked"></i>
+        </a>
+        <a href="#">
+          <i className="fas fa-share-alt share"></i>
+        </a>
+*/

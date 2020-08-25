@@ -38,7 +38,7 @@ a:focus {
 .line {
   width: 100%;
   height: 1px;
-  border-bottom: 1px dashed #ddd;
+  border-bottom: 1px solid #ddd;
   margin: 40px 0;
 }
 
@@ -222,10 +222,15 @@ a.article:hover {
 }
 
 /* ********************  Global  ******************** */
+
+section {
+  height: 120vw;
+}
+
 /* ---------- The Header ---------- */
 header {
   background: darkblue;
-  border-bottom: solid 3px rgb(2, 2, 224);
+  border-bottom: solid 3px #215273;
   box-shadow: 1px 1px 3px gray;
   padding: 10px 0px;
 }
@@ -242,12 +247,12 @@ header {
 
 .section-title,
 .section-subtitle {
-  color: rgb(2, 2, 224);
+  color: #215273;
 }
 
 /* --------- The Page Footer --------- */
 footer .row {
-  background: darkblue;
+  background: #215273;
   border-bottom: solid rgb(2, 2, 224);
   box-shadow: 1px 1px 3px gray;
 }
@@ -257,7 +262,7 @@ footer i {
 }
 
 #copyRight {
-  background: rgb(2, 2, 224);
+  background: #215273;
   margin: 0px;
   padding: 0px;
   font-size: 0.5rem;
@@ -266,6 +271,16 @@ footer i {
 /* ******************** Home Page ******************** */
 
 /* ---------- The Header ---------- */
+
+section li,
+section h5 {
+  color: #999;
+}
+
+section h2,
+section h4 {
+  color: #215273;
+}
 
 /* Home introduction carousel */
 #homeIntroCarousel img {
@@ -297,12 +312,11 @@ Source: https://www.youtube.com/watch?v=iGam6w8Jz9g&t=728s */
 
 .wrapper h4 {
   padding-top: 40px;
-  color: rgb(100, 98, 98);
 }
 
 .intro {
   padding: 150px 40px;
-  color: darkblue;
+  color: #215273;
 }
 
 /* ---------- Main content ---------- */
@@ -311,13 +325,19 @@ Source: https://www.youtube.com/watch?v=iGam6w8Jz9g&t=728s */
   font-size: 15rem;
 }
 
-.mobile-icon,
-.features i {
+.mobile-icon {
   color: #359d9e;
 }
 
+.softSkillIcon {
+  color: #359d9e;
+}
+.techSkillIcon {
+  color: #215273;
+}
+
 .aCard {
-  background-color: rgb(9, 32, 243);
+  background-color: #215273;
 }
 
 /* ------- Additional content ------- */
@@ -329,6 +349,11 @@ Source: https://www.youtube.com/watch?v=iGam6w8Jz9g&t=728s */
 /* ---------- The Header ---------- */
 
 /* ---------- Main content ---------- */
+
+.card-img-overlay p {
+  color: white;
+}
+
 .introCard img,
 .projectCard img {
   height: 300px !important;
@@ -352,6 +377,10 @@ Source: https://www.youtube.com/watch?v=iGam6w8Jz9g&t=728s */
   background-color: black;
 }
 
+.projectCard i {
+  font-size: 5rem !important;
+}
+
 /* A darker image --- 
 Reference: https://www.youtube.com/watch?time_continue=3&v=h3gktsmp3Oo&feature=emb_logo
 .introCard img {
@@ -366,6 +395,7 @@ Reference: https://www.youtube.com/watch?time_continue=3&v=h3gktsmp3Oo&feature=e
 .card-img-overlay h5 {
   text-align: center;
   margin: 10% 10% 5% 10%;
+  color: white;
 }
 
 .card-img-overlay {
@@ -380,12 +410,15 @@ Reference: https://www.youtube.com/watch?time_continue=3&v=h3gktsmp3Oo&feature=e
 .card-img-overlay i {
   color: yellowgreen;
   font-size: 2.5rem;
-  margin: 30% 0.5rem;
 }
 
 .card-img-overlay a {
   margin: 0px;
   padding: 0px;
+}
+
+.projectCard i {
+  margin: 30% 5%;
 }
 
 /* --------- The Page Footer --------- */
@@ -412,12 +445,25 @@ Reference: https://www.youtube.com/watch?time_continue=3&v=h3gktsmp3Oo&feature=e
   color: white;
 } */
 
-#cheers1 {
-  color: gray;
+.contactForm {
+  color: #999;
 }
 
-#cheers2 {
+.contactOptions {
+  color: #999;
+}
+
+.contactOptions i {
   color: #359d9e;
+}
+
+#cheers {
+  color: #999;
+}
+
+.btn-light {
+  color: #215273;
+  font-weight: bold;
 }
 /* --------- The Page Footer --------- */
 

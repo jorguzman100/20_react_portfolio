@@ -5,13 +5,13 @@ const Contact = () => {
   return (
     <Section title={"Contact"}>
       <main className="row row-cols-1 mt-4">
-        <div className="col bg-white text-dark p-4 mb-5">
+        <div className="col bg-white p-4 mb-5">
           <h4 className="text-center">
             Do you want to start a project with us or have any questions?
           </h4>
 
           {/* Form */}
-          <form className="mt-4">
+          <form className="mt-4 contactForm">
             <div className="row">
               <div className="col">
                 <div className="row">
@@ -67,7 +67,7 @@ const Contact = () => {
                 </div>
                 <div className="row">
                   <div className="col text-center">
-                    <button type="submit" className="btn btn-info">
+                    <button type="submit" className="btn btn-light">
                       Submit
                     </button>
                   </div>
@@ -79,9 +79,9 @@ const Contact = () => {
         </div>
 
         {/* Direct Contact */}
-        <section className="col bg-white text-dark p-4 mb-5">
+        <section className="col bg-white p-4 mb-5">
           <h4 className="text-center">More options to contact and explore</h4>
-          <div className="row mb-5 p-4 bg-white text-dark features">
+          <div className="row mb-5 p-4 bg-white contactOptions">
             <div className="col mb-2">
               <div className="row row-cols-1 row-cols-md-2 pl-5">
                 <div className="col mb-3">
@@ -134,11 +134,8 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <h5 className="text-right" id="cheers1">
-            We will be glad to hear form you!
-          </h5>
-          <h5 className="text-right cheers pb-3" id="cheers2">
-            Jorge Guzman
+          <h5 className="text-right" id="cheers">
+            I will be glad to hear form you!
           </h5>
         </section>
         {/* /Direct Contact */}

@@ -4,9 +4,9 @@ const Section = (props) => {
 
     return (
         <section>
+            <div className="line"></div>
             <h2>{props.title}</h2>
             {props.children}
-            <div className="line"></div>
         </section>
     );
 }
