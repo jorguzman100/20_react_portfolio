@@ -1,6 +1,9 @@
 import React from "react";
 
 const IntroCard = (props) => {
+  const { project } = props;
+  console.log('project: ', project);
+  const introImage = require(project.introImage);
   return (
     <div
       key={props.project.id}
@@ -9,7 +12,7 @@ const IntroCard = (props) => {
       style={{ display: props.cardIndex == props.project.id ? "none" : "block" }}
     >
       <img
-        src={props.project.introImage}
+        src={introImage}
         className="card-img"
         alt="Intro card background"
       />

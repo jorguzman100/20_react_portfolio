@@ -1,7 +1,7 @@
-import React from 'react';
+import React, { Profiler } from 'react';
 import { Link } from "react-router-dom";
 
-// 
+import profilePic from '../assets/img/profile/JorgeGuzman2.jpg'
 
 
 const Nav = () => {
@@ -12,7 +12,7 @@ const Nav = () => {
             <div className="sidebar-header">
                 <Link to='/about'>
                     <h3 className='my-5'>Jorge Guzman</h3>
-                    <img className='profilePicture mb-5' src="/assets/img/profile/JorgeGuzman2.jpg" alt="Jorge Guzman profile" />
+                    <img className='profilePicture mb-5' src={profilePic} alt="Jorge Guzman profile" />
                     <p className='role mb-5 mt-0'>Full Stack Web Developer</p>
                 </Link>
             </div>
