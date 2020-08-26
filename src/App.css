@@ -290,7 +290,7 @@ section h4 {
 /* Parallax --- 
 Source: https://www.youtube.com/watch?v=iGam6w8Jz9g&t=728s */
 #parallax {
-  background-image: url("assets/img/business_mindset.jpg");
+  background-image: url("/img/business_mindset.jpg");
   background-attachment: fixed; /* For not moving */
   background-position: center;
   background-repeat: no-repeat;
@@ -299,7 +299,7 @@ Source: https://www.youtube.com/watch?v=iGam6w8Jz9g&t=728s */
 /* --- / Parallax */
 
 #parallax2 {
-  background-image: url("assets/img/business_mindset.jpg");
+  background-image: url("/img/business_mindset.jpg");
   background-attachment: fixed; /* For not moving */
   background-position: center;
   background-repeat: no-repeat;

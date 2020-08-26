@@ -3,7 +3,7 @@ import React from "react";
 const IntroCard = (props) => {
   const { project } = props;
   console.log('project: ', project);
-  const introImage = require(project.introImage);
+  const introImage = project.introImage;
   return (
     <div
       key={props.project.id}

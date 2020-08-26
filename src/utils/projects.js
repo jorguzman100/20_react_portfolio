@@ -1,8 +1,8 @@
 const projects = [
     {
         id: 0,
-        introImage: '../assets/img/backgrounds/orange.png',
-        projectImage: '../assets/img/screen-shots/projects-screenshots/WeatherDashboard.png',
+        introImage: '/img/backgrounds/orange.png',
+        projectImage: '/img/screen-shots/projects-screenshots/WeatherDashboard.png',
         title: 'Weather Dashboard',
         description: `Allows the user to search for any city and obtain
                         weather information, such as weather description,
@@ -12,8 +12,8 @@ const projects = [
     },
     {
         id: 1,
-        introImage: '../assets/img/backgrounds/green.png',
-        projectImage: '../assets/img/screen-shots/projects-screenshots/WikiDrinks.png',
+        introImage: '/img/backgrounds/green.png',
+        projectImage: '/img/screen-shots/projects-screenshots/WikiDrinks.png',
         title: 'WikiDrinks',
         description: `WikiDrinks is a modern website that provide users the
                         possibility to search for drinks, in order to obtain
@@ -24,8 +24,8 @@ const projects = [
     },
     {
         id: 2,
-        introImage: '../assets/img/backgrounds/midnight.png',
-        projectImage: '../assets/img/screen-shots/projects-screenshots/PersonalAgenda.png',
+        introImage: '/img/backgrounds/midnight.png',
+        projectImage: '/img/screen-shots/projects-screenshots/PersonalAgenda.png',
         title: 'Personal Agenda',
         description: `A calendar application that works as a Personal
                         Agenda, allowing the user to register activities at
@@ -36,8 +36,8 @@ const projects = [
     },
     {
         id: 3,
-        introImage: '../assets/img/backgrounds/lightblue.png',
-        projectImage: '../assets/img/screen-shots/projects-screenshots/DisneyMoviesQuiz2.png',
+        introImage: '/img/backgrounds/lightblue.png',
+        projectImage: '/img/screen-shots/projects-screenshots/DisneyMoviesQuiz2.png',
         title: 'Disney Movies Quiz',
         description: `A funny quiz related to Disney movies.`,
         repo: 'https://github.com/jorguzman100/04_Code_Quiz',
@@ -45,8 +45,8 @@ const projects = [
     },
     {
         id: 4,
-        introImage: '../assets/img/backgrounds/gray.png',
-        projectImage: '../assets/img/screen-shots/projects-screenshots/PasswordGenerator.png',
+        introImage: '/img/backgrounds/gray.png',
+        projectImage: '/img/screen-shots/projects-screenshots/PasswordGenerator.png',
         title: 'Password Generator',
         description: `An application that generates a random password based
                         on user selected criteria.`,
@@ -55,8 +55,8 @@ const projects = [
     },
     {
         id: 5,
-        introImage: '../assets/img/backgrounds/blue.png',
-        projectImage: '../assets/img/screen-shots/projects-screenshots/CodeRefactor.png',
+        introImage: '/img/backgrounds/blue.png',
+        projectImage: '/img/screen-shots/projects-screenshots/CodeRefactor.png',
         title: 'Code Refactor',
         description: `Refactored an existing webpage in order to make it
                         accessible, so it is optimized for search engines.`,
@@ -65,8 +65,8 @@ const projects = [
     },
     {
         id: 6,
-        introImage: '../assets/img/backgrounds/aqua.png',
-        projectImage: '../assets/img/screen-shots/projects-screenshots/NoteTaker.png',
+        introImage: '/img/backgrounds/aqua.png',
+        projectImage: '/img/screen-shots/projects-screenshots/NoteTaker.png',
         title: 'Note Taker',
         description: `An application that can be used to write, save, and delete notes. This application uses an express backend, and save and retrieve note data from a JSON file.`,
         repo: 'https://github.com/jorguzman100/11_Note_Taker',
@@ -74,8 +74,8 @@ const projects = [
     },
     {
         id: 7,
-        introImage: '../assets/img/backgrounds/green.png',
-        projectImage: '../assets/img/screen-shots/projects-screenshots/BookShelf.png',
+        introImage: '/img/backgrounds/green.png',
+        projectImage: '/img/screen-shots/projects-screenshots/BookShelf.png',
         title: 'Book Shelf',
         description: `A full stack web application where a user can register, browse in a book database, select books and add them to a purchasing cart.`,
         repo: 'https://github.com/jorguzman100/project2',
