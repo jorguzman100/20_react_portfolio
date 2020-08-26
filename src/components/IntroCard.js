@@ -3,7 +3,7 @@ import React from "react";
 const IntroCard = (props) => {
   const { project } = props;
   console.log('project: ', project);
-  const introImage = project.introImage;
+  //const introImage =  project.introImage;
   return (
     <div
       key={props.project.id}
@@ -12,7 +12,7 @@ const IntroCard = (props) => {
       style={{ display: props.cardIndex == props.project.id ? "none" : "block" }}
     >
       <img
-        src={introImage}
+        src={process.env.PUBLIC_URL + project.introImage}
         className="card-img"
         alt="Intro card background"
       />

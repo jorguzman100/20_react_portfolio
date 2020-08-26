@@ -8,7 +8,7 @@ const ProjectCard = (props) => {
       data-index={props.project.id}
       style={{ display: props.cardIndex == props.project.id ? "block" : "none" }}
     >
-      <img src={props.project.projectImage} className="card-img" alt="Project card" />
+      <img src={process.env.PUBLIC_URL+ props.project.projectImage}  className="card-img" alt="Project card" />
       <div
         className="card-img-overlay"
         data-index={props.project.id}

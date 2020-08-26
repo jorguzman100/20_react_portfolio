@@ -11,7 +11,7 @@ const Nav = () => {
             <div className="sidebar-header">
                 <Link to='/about'>
                     <h3 className='my-5'>Jorge Guzman</h3>
-                    <img className='profilePicture mb-5' src='/img/profile/JorgeGuzman2.jpg' alt="Jorge Guzman profile" />
+                    <img className='profilePicture mb-5' src={process.env.PUBLIC_URL + '/img/profile/JorgeGuzman2.jpg'} alt="Jorge Guzman profile" />
                     <p className='role mb-5 mt-0'>Full Stack Web Developer</p>
                 </Link>
             </div>
