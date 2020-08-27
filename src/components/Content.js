@@ -18,7 +18,7 @@ const Content = (props) => {
             </div>
 
             <Route
-                exact path={['/', "/about", process.env.PUBLIC_URL]}
+                exact path={['/', "/about", '/20_react_portfolio']}
                 component={() => <About scrollToId={props.scrollToId} />}
             />
             <Route exact path="/portfolio" component={Portfolio} />
