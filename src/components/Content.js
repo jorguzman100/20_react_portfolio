@@ -17,8 +17,16 @@ const Content = (props) => {
                 </button>
             </div>
 
+            <Route exact path='/' component={About} />
             <Route
-                exact path={['/', "/about", '/20_react_portfolio']}
+                path={[
+                    "/about",
+                    '/20_react_portfolio',
+                    '/about/about',
+                    '/about/experience#',
+                    '/about/education#',
+                    '/about/skills#'
+                ]}
                 component={() => <About scrollToId={props.scrollToId} />}
             />
             <Route exact path="/portfolio" component={Portfolio} />
