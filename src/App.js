@@ -16,7 +16,7 @@ const App = () => {
     setAboutLinkState({
       scrollToId: dataLink
     });
-    window.history.pushState(aboutLinkState, '', `/about/${dataLink}`)
+    window.history.pushState(aboutLinkState, '', `/about/#${dataLink}`)
   }
 
   return (

@@ -331,6 +331,8 @@ Source: https://www.youtube.com/watch?v=iGam6w8Jz9g&t=728s */
 
 .aboutText p {
   color: #215273;
+  font-size: 1.5rem;
+  font-weight: 500;
   /*   padding-left: 2rem;
   padding-right: 2rem; */
 }
