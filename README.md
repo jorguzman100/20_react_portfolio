@@ -64,11 +64,11 @@ With the described process we were able to create a useful, efficient and respon
 
 **The application**
 
-![Screenshot1](public/assets/img/screen-shots/portfolio-app-screenshots/screenshot1.png)
-![Screenshot2](public/assets/img/screen-shots/portfolio-app-screenshots/screenshot2.png)
-![Screenshot3](public/assets/img/screen-shots/portfolio-app-screenshots/screenshot3.png)
-![Screenshot4](public/assets/img/screen-shots/portfolio-app-screenshots/screenshot4.png)
-![Screenshot5](public/assets/img/screen-shots/portfolio-app-screenshots/screenshot5.png)
+![Screenshot1](./build/img/screen-shots/portfolio-app-screenshots/screenshot1.png)
+![Screenshot2](./build/img/screen-shots/portfolio-app-screenshots/screenshot2.png)
+![Screenshot3](./build/img/screen-shots/portfolio-app-screenshots/screenshot3.png)
+![Screenshot4](./build/img/screen-shots/portfolio-app-screenshots/screenshot4.png)
+![Screenshot5](./build/img/screen-shots/portfolio-app-screenshots/screenshot5.png)
 
 ## Installation and Usage
 
