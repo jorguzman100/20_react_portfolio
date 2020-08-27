@@ -20,16 +20,16 @@ const Nav = (props) => {
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">About</a>
                     <ul className="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="#" rel='bookmark' data-link='about' onClick={props.handleOnClickLink}>About</a>
+                            <a href="#about" rel='bookmark' data-link='about' onClick={props.handleOnClickLink}>About</a>
                         </li>
                         <li>
-                            <a href="#" rel='bookmark' data-link='experience' onClick={props.handleOnClickLink}>Experience</a>
+                            <a href="#experience" rel='bookmark' data-link='experience' onClick={props.handleOnClickLink}>Experience</a>
                         </li>
                         <li>
-                            <a href="#" rel='bookmark' data-link='education' onClick={props.handleOnClickLink}>Education</a>
+                            <a href="#education" rel='bookmark' data-link='education' onClick={props.handleOnClickLink}>Education</a>
                         </li>
                         <li>
-                            <a href="#" rel='bookmark' data-link='skills' onClick={props.handleOnClickLink}>Skills</a>
+                            <a href="#bookmark" rel='bookmark' data-link='skills' onClick={props.handleOnClickLink}>Skills</a>
                         </li>
                     </ul>
                 </li>
