@@ -12,7 +12,7 @@ const About = (props) => {
   useEffect(() => {
     console.log("inside hook")
     // Scroll to section
-    let scrollToSection = document.querySelector(`#${props.scrollToId}`);
+    let scrollToSection = document.querySelector('#about' || `#${props.scrollToId}`);
     scrollToSection.scrollIntoView({behavior: 'smooth'});
   }, [props.scrollToId]);
 

@@ -29,7 +29,7 @@ const Nav = (props) => {
                             <a href="#education" rel='bookmark' data-link='education' onClick={props.handleOnClickLink}>Education</a>
                         </li>
                         <li>
-                            <a href="#bookmark" rel='bookmark' data-link='skills' onClick={props.handleOnClickLink}>Skills</a>
+                            <a href="#skills" rel='bookmark' data-link='skills' onClick={props.handleOnClickLink}>Skills</a>
                         </li>
                     </ul>
                 </li>
