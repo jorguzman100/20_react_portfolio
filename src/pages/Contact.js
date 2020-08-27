@@ -85,7 +85,7 @@ const Contact = () => {
             <div className="col mb-2">
               <div className="row row-cols-1 row-cols-md-2 pl-5">
                 <div className="col mb-3">
-                  <a href="https://github.com/jorguzman100" target="_blank">
+                  <a href="https://github.com/jorguzman100" target="_blank" rel='noopener noreferrer'>
                     <i className="fab fa-github display-4 align-middle mr-2"></i>
                     <p className="d-inline align-middle">GitHub</p>
                   </a>
@@ -101,6 +101,7 @@ const Contact = () => {
                   <a
                     href="https://www.linkedin.com/in/jorge-guzman-992401a/"
                     target="_blank"
+                    rel='noopener noreferrer'
                   >
                     <i className="fab fa-linkedin display-4 align-middle mr-2"></i>
                     <p className="d-inline align-middle">LinkedIn</p>
@@ -117,6 +118,7 @@ const Contact = () => {
                   <a
                     href="https://www.facebook.com/jorguzman75"
                     target="_blank"
+                    rel='noopener noreferrer'
                   >
                     <i className="fab fa-facebook-square display-4 align-middle mr-2"></i>
                     <p className="d-inline align-middle">Facebook</p>
@@ -126,6 +128,7 @@ const Contact = () => {
                   <a
                     href="https://drive.google.com/file/d/1erBwvUvfk0kr33BizV7c_CMqO0BSb5wQ/view?usp=sharing "
                     target="_blank"
+                    rel='noopener noreferrer'
                   >
                     <i className="fas fa-file-pdf display-4 align-middle mr-2"></i>
                     <p className="d-inline align-middle">View Resume</p>

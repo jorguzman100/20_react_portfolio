@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import Section from "../components/Section";
 
 // Components
@@ -6,7 +6,16 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Skills from "./Skills";
 
-const About = () => {
+const About = (props) => {
+  console.log('About - props.scrollToId: ', props.scrollToId);
+
+  useEffect(() => {
+    // Scroll to section
+    let scrollToSection = document.querySelector(`#${props.scrollToId}`);
+    scrollToSection.scrollIntoView();
+  }, [props.scrollToId]);
+
+  
   return (
     <div>
       <Section title={"About"} id="about">

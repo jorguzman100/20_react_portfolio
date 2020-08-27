@@ -1,10 +1,9 @@
-import React, { Profiler } from 'react';
+import React from 'react';
 import { Link } from "react-router-dom";
 
 // import profilePic from '../../public/img/profile/JorgeGuzman2.jpg'
 
-const Nav = () => {
-
+const Nav = (props) => {
 
     return (
         <nav id="sidebar">
@@ -21,16 +20,16 @@ const Nav = () => {
                     <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" className="dropdown-toggle">About</a>
                     <ul className="collapse list-unstyled" id="pageSubmenu">
                         <li>
-                            <a href="/about#about">About</a>
+                            <a href="#" rel='bookmark' data-link='about' onClick={props.handleOnClickLink}>About</a>
                         </li>
                         <li>
-                            <a href="/about#experience">Experience</a>
+                            <a href="#" rel='bookmark' data-link='experience' onClick={props.handleOnClickLink}>Experience</a>
                         </li>
                         <li>
-                            <a href="/about#education">Education</a>
+                            <a href="#" rel='bookmark' data-link='education' onClick={props.handleOnClickLink}>Education</a>
                         </li>
                         <li>
-                            <a href="/about#skills">Skills</a>
+                            <a href="#" rel='bookmark' data-link='skills' onClick={props.handleOnClickLink}>Skills</a>
                         </li>
                     </ul>
                 </li>

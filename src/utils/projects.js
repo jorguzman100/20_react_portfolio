@@ -1,6 +1,6 @@
 const projects = [
     {
-        id: 0,
+        id: '0',
         introImage: '/img/backgrounds/orange.png',
         projectImage: '/img/screen-shots/projects-screenshots/WeatherDashboard.png',
         title: 'Weather Dashboard',
@@ -11,7 +11,7 @@ const projects = [
         deploy: 'https://jorguzman100.github.io/06_Weather_Dashboard/'
     },
     {
-        id: 1,
+        id: '1',
         introImage: '/img/backgrounds/green.png',
         projectImage: '/img/screen-shots/projects-screenshots/WikiDrinks.png',
         title: 'WikiDrinks',
@@ -23,7 +23,7 @@ const projects = [
         deploy: 'https://raul-ae.github.io/project-1/'
     },
     {
-        id: 2,
+        id: '2',
         introImage: '/img/backgrounds/midnight.png',
         projectImage: '/img/screen-shots/projects-screenshots/PersonalAgenda.png',
         title: 'Personal Agenda',
@@ -35,7 +35,7 @@ const projects = [
         deploy: 'https://jorguzman100.github.io/05_Day_Planner/'
     },
     {
-        id: 3,
+        id: '3',
         introImage: '/img/backgrounds/lightblue.png',
         projectImage: '/img/screen-shots/projects-screenshots/DisneyMoviesQuiz2.png',
         title: 'Disney Movies Quiz',
@@ -44,7 +44,7 @@ const projects = [
         deploy: 'https://jorguzman100.github.io/04_Code_Quiz/'
     },
     {
-        id: 4,
+        id: '4',
         introImage: '/img/backgrounds/gray.png',
         projectImage: '/img/screen-shots/projects-screenshots/PasswordGenerator.png',
         title: 'Password Generator',
@@ -54,7 +54,7 @@ const projects = [
         deploy: 'https://jorguzman100.github.io/03_Password_Generator/'
     },
     {
-        id: 5,
+        id: '5',
         introImage: '/img/backgrounds/blue.png',
         projectImage: '/img/screen-shots/projects-screenshots/CodeRefactor.png',
         title: 'Code Refactor',
@@ -64,7 +64,7 @@ const projects = [
         deploy: 'https://jorguzman100.github.io/01_Code_Refactor_JGR/'
     },
     {
-        id: 6,
+        id: '6',
         introImage: '/img/backgrounds/aqua.png',
         projectImage: '/img/screen-shots/projects-screenshots/NoteTaker.png',
         title: 'Note Taker',
@@ -73,7 +73,7 @@ const projects = [
         deploy: 'https://fierce-earth-57501.herokuapp.com/notes'
     },
     {
-        id: 7,
+        id: '7',
         introImage: '/img/backgrounds/green.png',
         projectImage: '/img/screen-shots/projects-screenshots/BookShelf.png',
         title: 'Book Shelf',

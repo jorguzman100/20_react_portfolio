@@ -1,17 +1,28 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
 import { BrowserRouter } from "react-router-dom";
+import './App.css';
 
 // Components
 import SideNav from './components/SideNav';
 import Content from './components/Content';
 
-function App() {
+const App = () => {
+  const [aboutLinkState, setAboutLinkState] = useState({
+    scrollToId: 'about'
+  });
+
+  const handleOnClickLink = (e) => {
+    let dataLink = e.target.getAttribute('data-link');
+    setAboutLinkState({
+      scrollToId: dataLink
+    });
+  }
+
   return (
     <BrowserRouter>
       <div className="wrapper">
-        <SideNav />
-        <Content />
+        <SideNav handleOnClickLink={handleOnClickLink}/>
+        <Content scrollToId={aboutLinkState.scrollToId}/>
       </div>
     </BrowserRouter>
   );

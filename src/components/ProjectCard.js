@@ -6,7 +6,7 @@ const ProjectCard = (props) => {
       key={props.project.id}
       className="card text-white projectCard"
       data-index={props.project.id}
-      style={{ display: props.cardIndex == props.project.id ? "block" : "none" }}
+      style={{ display: props.cardIndex === props.project.id ? "block" : "none" }}
     >
       <img src={process.env.PUBLIC_URL+ props.project.projectImage}  className="card-img" alt="Project card" />
       <div
@@ -15,10 +15,10 @@ const ProjectCard = (props) => {
         onMouseLeave={props.handleProjectMouseLeave}
       >
         
-        <a href={props.project.deploy} target="_blank">
+        <a href={props.project.deploy} target="_blank" rel='noopener noreferrer'>
           <i className="far fa-play-circle"></i>
         </a>
-        <a href={props.project.repo} target="_blank">
+        <a href={props.project.repo} target="_blank" rel='noopener noreferrer'>
           <i className="fab fa-github"></i>
         </a>
       </div>
