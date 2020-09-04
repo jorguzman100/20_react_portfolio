@@ -80,6 +80,15 @@ const projects = [
         description: `A full stack web application where a user can register, browse in a book database, select books and add them to a purchasing cart.`,
         repo: 'https://github.com/jorguzman100/project2',
         deploy: 'https://safe-basin-04900.herokuapp.com/'
+    },
+    {
+        id: '8',
+        introImage: '/img/backgrounds/blue.png',
+        projectImage: '/img/screen-shots/projects-screenshots/GoogleBooks.png',
+        title: 'Google Books Search',
+        description: `A MERN application based on Google Books API.`,
+        repo: 'https://github.com/jorguzman100/21_google_books',
+        deploy: 'https://gentle-ravine-32258.herokuapp.com/ '
     }
 ];
 
